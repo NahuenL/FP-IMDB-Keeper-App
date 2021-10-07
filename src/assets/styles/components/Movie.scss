@@ -1,0 +1,56 @@
+@import "../App.scss";
+
+.movie--img {
+  width: 250px;
+  height: 300px;
+}
+
+.movie--details {
+  padding: 35px 15px 10px;
+  margin-top: -35px;
+  background-color: $app-color-light;
+}
+
+.movie--grid-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  left: -60px;
+}
+
+.movie--grid-icon-text {
+  left: -60px;
+}
+
+.icon-item.watched {
+  fill: $secondary-color;
+}
+
+.icon-item.nonwatched {
+  fill: $dark-color;
+}
+
+.movie--details-name {
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 21px;
+  color: $fg-color-hover;
+}
+
+.movie--details-item {
+  margin: 5px 0;
+}
+
+.movie--details-item-more {
+  text-align: end;
+}
+
+.movie--details-item-more:hover {
+  cursor: pointer;
+  color: $secondary-color;
+}
+
+.movie--details-item-type {
+  font-weight: bolder;
+}

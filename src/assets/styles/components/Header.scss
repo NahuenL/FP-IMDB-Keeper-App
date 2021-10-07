@@ -1,0 +1,31 @@
+@import "../App.scss";
+
+.header {
+  @include colCenCen;
+}
+
+.header-nav-options {
+  @include flexCenCen;
+  padding: 0;
+  padding-left: 300px;
+}
+
+.header-nav-options-item > a {
+  margin-right: 25px;
+  font-size: 25px;
+  list-style-type: none;
+  color: $fg-color;
+}
+
+.header-nav-options-item.active > a {
+  color: $fg-color-hover;
+}
+
+.header-nav-options-item:last-child {
+  margin-right: 0;
+}
+
+.header-nav-options-item:hover > a {
+  cursor: pointer;
+  color: $fg-color-hover;
+}

@@ -1,0 +1,28 @@
+@import "../App.scss";
+
+.movie-detail---img-full {
+  width: 380px;
+}
+
+.movie-detail--grid-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  left: -60px;
+}
+
+.movie-detail--grid-icon-text {
+  left: -60px;
+}
+
+.icon-item.watched {
+  fill: $secondary-color;
+}
+
+.icon-item.nonwatched {
+  fill: $dark-color;
+}
+
+.actor-img {
+  width: 100px;
+}
