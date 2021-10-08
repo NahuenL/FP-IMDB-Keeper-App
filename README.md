@@ -1,6 +1,6 @@
 # FP-IMDB-Keeper-App
 
-Hi, this is a movie search app. Here you can find that movie you have been looking for, with a new facture, set any movie as watched status.
+Hi, this is a movie search app. Here you can find that movie you have been looking for. There is a new feature, you can set any movie as watched.
 
 ## API Used
 
@@ -9,7 +9,7 @@ You can find more info here [IMDB - API](https://imdb-api.com/)
 
 ## Design Pattern
 
-This App uses a Pattern Architecture Flux with Redux library, reducers functions and custom hooks. 
+This App uses a Pattern Architecture Flux with Redux Library, Reducers Functions and Custom Hooks. 
 
 # Getting Started with Create React App
 
