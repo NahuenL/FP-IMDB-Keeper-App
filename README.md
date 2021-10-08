@@ -1,3 +1,16 @@
+# FP-IMDB-Keeper-App
+
+Hi, this is a movie search app. Here you can find that movie you have been looking for, with a new facture, set any movie as watched status.
+
+## API Used
+
+This App uses an Internet Movie Database (IMDB) API. It provides many items in JSON format, such as movie specifications, images, posters, trailers, ratings, etc...
+You can find more info here [IMDB - API](https://imdb-api.com/) 
+
+## Design Pattern
+
+This App uses a Pattern Architecture Flux with Redux library, reducers functions and custom hooks. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
